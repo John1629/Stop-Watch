@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(168, 229, 234);
+}
+
+h1 {
+  color: #000000;
+  font-family: "Roboto mono", "monospace";
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 63%;
+  /* padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.388); */
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.388);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background: rgb(255, 255, 255);
+  left: 4%;
+  font-family: "Roboto mono", "monospace";
+  color: rgb(47, 146, 155);
+  padding: 40px;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.388);
+}
+
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: rgb(85, 0, 255);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons button:nth-last-child(1) {
+  background-color: rgb(255, 145, 0);
+}
+
+.buttons button:nth-last-child(2) {
+  background-color: rgb(218, 82, 82);
+}
+
+.buttons button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
